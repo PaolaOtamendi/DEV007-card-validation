@@ -4,10 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
+* [3. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
 * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
 * [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
@@ -47,26 +44,46 @@ y funciones, así como eventos y manipulación básica del DOM, fundamentos de
 HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos
 conceptos también.
 
-### Los objetivos generales de este proyecto son los siguientes
 
-* Trabajar en base a un boilerplate, la estructura básica de un proyecto en
-  distintas carpetas (a través modulos en JS).
-* Conocer las herramientas de mantenimiento y mejora del código (linters y
-  pruebas unitarias).
-* Aprender sobre objetos, estructuras, métodos e iteración (bucles)
-  en JavaScript
-* Implementar control de versiones con git (y la plataforma github)
+## 3. Fundacion Rosa por una Vida.
+![Interfaz para realizar donaciones figma](C:\Users\ACER\DEV007-card-validation\src\Imagenes\figmaprototipo.PNG)
 
-## 3. Consideraciones generales
+El objetivo de la interfaz es que sea amigable con el usuario y predicitiva, la parte inicial de la pagina se presenta con un encabezado donde se coloca el nombre de la "empresa o fundación", seguido del nombre se coloco un pequelo texto dando a entender el fin de la pagina y de la actividad que se realice ya sea una compra u donación.
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+Finalmente se llego a la conclusion de realizar la pagina enfocada a una fundacion enfocada al cancer de mama, para todas aquellas personas que busquen dar apoyos economicos a las mujeres que lo necesiten, ya sea usado para tratamientos, medicinas, traslados hospitalitarios, etc.
 
-## 4. Hito: Criterios de aceptación mínimos del proyecto
+![Interfaz para realizar donaciones pagina web](C:\Users\ACER\DEV007-card-validation\src\Imagenes\captura.PNG)
+
+* Quiénes son los principales usuarios de producto.
+La pagina de la fundacion esta enfocada a cualquier personas que busque colaborar con su apoyo economico, mayor de edad y que cuente con una tarjeta bancaria debito o credito.
+
+* Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Su principal objetivo es que sea una interfaz amigable con el metodo en linea, se acepta cualquier tarjeta bancaria activa, para mayor seguridad para el usuario los numero de la tarjeta se enmascaran protegiendo sus datos personales, igualmente se espera que todos los campos sean vigentes y llenados con el fin de verificar los datos del usuario.
+
+- 1. Al llenar los datos el usuario puede ir visualizando si es que estos son correctos, en la parte de arriba del formulario presenta esta información, el fin es brindarle la mayor comodidad al usuario.
+Los datos que el usuario puede visualizar son:
+* Número de tarjeta.
+* Titular de tarjeta.
+* Fecha de expiración.
+
+![Tarjeta de credito parte inicial](C:\Users\ACER\DEV007-card-validation\src\Imagenes\tarjetafrontal.PNG)
+
+- 2. Seguido de la imagen de la tarjeta de credito se presenta la seccion del formulario, se espera que el usuario ingrese los datos pertinentes del pago que se realizara u donacion por parte del usuario, en esta seccion se muestran los campos a llenar, los cuales son campos con tipo input, en los cuales el usuario podra ingresar sus datos:
+* Nombre de titular.
+* Número de tarjeta.
+* Fecha de expiración (Mes y Año) - Estos son selecctores buscando facilitar el ingreso de datos al usuario.
+* CVV.
+* Boton de realizar pago. Identificado con color y diseño para que sea mas atractivo al usuario.
+
+![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\formulario.PNG)
+
+
+
+- 3. La interfaz es muy amigable y predictiva, si algun campo no es llenado este lanza una alerta donde pide al usuario que verifique los datos si es que alguno no fue ingresado. 
+
+
+
+## 3. Hito: Criterios de aceptación mínimos del proyecto
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
@@ -98,58 +115,8 @@ Estas preguntas sirven como guía:
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-Con estos requisitos cumplidos puedes
-[considerar agendar un Project Feedback con unx coach.](#9-para-considerar-project-feedback)
 
-## 5. Hito Opcional: Mostrar la franquicia de tarjeta
 
-Las partes opcionales tienen como intención permitirte profundizar un poco más
-sobre los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y
-contras, decide sabiamente si quieres invertir el tiempo en profundizar/
-perfeccionar o aprender cosas nuevas en el siguiente proyecto.
-
-En hito 2 puedes además de validar si el número de la
-tarjeta es válida, mostrar la [franquicia](https://es.wikipedia.org/wiki/N%C3%BAmero_de_tarjeta_bancaria)
-de la tarjeta (ej: Visa, MasterCard, etc)
-usando estas [reglas de validación](https://stevemorse.org/ssn/cc.html).
-Si escribes un nuevo método para eso, hay que hacer pruebas unitarias.
-
-## 6. Consideraciones técnicas
-
-La lógica del proyecto debe estar implementada completamente en JavaScript. En
-este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
-puro también conocido como Vanilla JavaScript.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
-es la estructura basica de un proyecto que sirve como un punto de partida con
-archivos inicial y configuración basica de dependencias y tests.
-
-Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
-y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
-setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
-test`.
-
-El boilerplate que les damos contiene esta estructura:
-
-```text
-./
-├── .babelrc
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── validator.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── .eslintrc
-    └── validator.spec.js
-```
 
 ### Descripción de scripts / archivos
 
@@ -374,33 +341,6 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 8. Pistas, tips y lecturas complementarias
-
-### Prepara tu PC para trabajar
-
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [VS Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.app/)
-   que incluye [Git bash](https://git-scm.com/download/win).
-3. Tus _coaches_ te compartirán un _link_ a un repo y te darán acceso de lectura.
-Debes realizar un :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) del repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
-   asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
@@ -458,3 +398,8 @@ Project Feedback:
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages.
 * [ ] El README contiene una definición del producto.
+
+
+[def]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
+[def2]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
+[def3]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
