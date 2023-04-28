@@ -4,10 +4,10 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [3. Fundacion Rosa por una Vida](#3-Fundacion-Rosa-por-una-Vida)
+* [4. Aspectos generales de la pagina](#4-Aspectos-generales-de-la-pagina)
+* [5. Objetivos de aprendizaje](#5-Objetivos-de-aprendizaje)
+* [6. Para considerar Project Feedback](#6-para-considerar-project-feedback)
 
 ***
 
@@ -77,46 +77,28 @@ Los datos que el usuario puede visualizar son:
 
 ![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\formulario.PNG)
 
+- 3. La interfaz es muy amigable y predictiva, si algun campo no es llenado este adiertes con una alerta al usuario que debe verificar los datos de pago, en caso de que alguno sea olvidado o no colocado de la forma correcta.
 
+![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\alertacampovacio.PNG)
 
-- 3. La interfaz es muy amigable y predictiva, si algun campo no es llenado este lanza una alerta donde pide al usuario que verifique los datos si es que alguno no fue ingresado. 
+- 4. Finalmente se busco que el diseño de la pagina represente a la fundacion "Rosa por una Vida" enfocandonos en los tonos respresentativos del cancer de mama, como es el tono rosa. El diseño final se presenta de la siguiente forma.
 
+![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\paginafinal.PNG)
 
+Se espera que las personas interesadas sobre el tema del cancer de mama se sienta identificada con la pagina y participe con sus donaciones.
 
-## 3. Hito: Criterios de aceptación mínimos del proyecto
+## 4. Aspectos generales de la pagina.
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
 
-**1. Una interfaz que debe permitir a la usuaria:**
-
-* Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
+* La pagina solo permite insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
   (dígitos) en la tarjeta a validar [0-9].  
-* Ver si el resultado es válido o no.  
-* Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
+* La pagina permite ver si el resultado es válido o no.  
+* La pagina permite ocultar todos los dígitos del número de tarjeta a exepción de los últimos
   4 caracteres.  
-* No debes poder ingresar un campo vacío.  
-
-**2. Pruebas unitarias de los métodos.**  
-Los metódos de `validator` (`isValid` y `maskify`) deben tener cobertura con
-pruebas unitarias.
-
-**3. Código de tu proyecto subido a tu repo e interfaz "desplegada".**  
-El código final debe estar subido en un repositorio en GitHub. La interfaz o
-pagina web, debe ser "desplegada" (accesible públicamente online) usando
-GitHub Pages.
+* La pagina restringe poder ingresar un campo vacío.  
   
-**4. Un README que contiene una definición del producto.**  
-En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.  
-Estas preguntas sirven como guía:
-
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
-
-
 
 ### Descripción de scripts / archivos
 
@@ -178,13 +160,13 @@ En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
  consultar su [documentación oficial](https://docs.github.com/es/pages).
 
-## 7. Objetivos de aprendizaje
+## 5. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [x] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -194,7 +176,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [x] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -202,7 +184,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+- [x] **Modelo de caja (box model): borde, margen, padding**
 
   <details><summary>Links</summary><p>
 
@@ -215,7 +197,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Web APIs
 
-- [ ] **Uso de selectores del DOM**
+- [x] **Uso de selectores del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -224,7 +206,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+- [x] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   <details><summary>Links</summary><p>
 
@@ -234,7 +216,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
 </p></details>
 
-- [ ] **Manipulación dinámica del DOM**
+- [x] **Manipulación dinámica del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -248,14 +230,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [ ] **Tipos de datos primitivos**
+- [x] **Tipos de datos primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadenas de caracteres)**
+- [x] **Strings (cadenas de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -263,7 +245,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variables (declaración, asignación, ámbito)**
+- [x] **Variables (declaración, asignación, ámbito)**
 
   <details><summary>Links</summary><p>
 
@@ -271,7 +253,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [x] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -279,7 +261,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+- [x] **Uso de bucles/ciclos (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -287,7 +269,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Funciones (params, args, return)**
+- [x] **Funciones (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -297,7 +279,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [ ] **Pruebas unitarias (unit tests)**
+- [x] **Pruebas unitarias (unit tests)**
 
   <details><summary>Links</summary><p>
 
@@ -333,13 +315,13 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Centrado en el usuario
 
-- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
+- [x] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
 ### Diseño de producto
 
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+- [x] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-- [ ] **Seguir los principios básicos de diseño visual**
+- [x] **Seguir los principios básicos de diseño visual**
 
 
 ### Recursos y temas relacionados
@@ -385,7 +367,7 @@ Organización del Trabajo:
 
 ***
 
-## 9. Para considerar Project Feedback
+## 6. Para considerar Project Feedback
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar
 Project Feedback:
@@ -403,3 +385,4 @@ Project Feedback:
 [def]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
 [def2]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
 [def3]: C:\Users\ACER\DEV007-card-validation\src\Imagenes
+
