@@ -87,7 +87,8 @@ Los datos que el usuario puede visualizar son:
 
 Se espera que las personas interesadas sobre el tema del cancer de mama se sienta identificada con la pagina y participe con sus donaciones.
 
-## 4. Aspectos generales de la pagina.
+## 4. Aspectos generales de la pagina.![figmaprototipo](https://user-images.githubusercontent.com/130094667/235686514-da5ace69-5244-400e-bc73-acc23c6d36be.PNG)
+
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
