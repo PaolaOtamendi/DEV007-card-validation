@@ -1,4 +1,3 @@
-![alertacampovacio](https://user-images.githubusercontent.com/130094667/235691483-057e669c-1f3c-4a6c-8bd2-8817a2975603.PNG)
 # Tarjeta de crédito válida
 
 ## Índice
@@ -80,7 +79,7 @@ Los datos que el usuario puede visualizar son:
 
 - 3. La interfaz es muy amigable y predictiva, si algun campo no es llenado este adiertes con una alerta al usuario que debe verificar los datos de pago, en caso de que alguno sea olvidado o no colocado de la forma correcta.
 
-![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\alertacampovacio.PNG)
+![alertacampovacio](https://user-images.githubusercontent.com/130094667/235691483-057e669c-1f3c-4a6c-8bd2-8817a2975603.PNG)
 
 - 4. Finalmente se busco que el diseño de la pagina represente a la fundacion "Rosa por una Vida" enfocandonos en los tonos respresentativos del cancer de mama, como es el tono rosa. El diseño final se presenta de la siguiente forma.
 
