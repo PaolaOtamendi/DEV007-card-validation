@@ -46,7 +46,7 @@ conceptos también.
 
 
 ## 3. Fundacion Rosa por una Vida.
-![Interfaz para realizar donaciones figma](C:\Users\ACER\DEV007-card-validation\src\Imagenes\figmaprototipo.PNG)
+![figmaprototipo](https://user-images.githubusercontent.com/130094667/235686514-da5ace69-5244-400e-bc73-acc23c6d36be.PNG)
 
 El objetivo de la interfaz es que sea amigable con el usuario y predicitiva, la parte inicial de la pagina se presenta con un encabezado donde se coloca el nombre de la "empresa o fundación", seguido del nombre se coloco un pequelo texto dando a entender el fin de la pagina y de la actividad que se realice ya sea una compra u donación.
 
@@ -87,7 +87,7 @@ Los datos que el usuario puede visualizar son:
 
 Se espera que las personas interesadas sobre el tema del cancer de mama se sienta identificada con la pagina y participe con sus donaciones.
 
-## 4. Aspectos generales de la pagina.![figmaprototipo](https://user-images.githubusercontent.com/130094667/235686514-da5ace69-5244-400e-bc73-acc23c6d36be.PNG)
+## 4. Aspectos generales de la pagina.
 
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
