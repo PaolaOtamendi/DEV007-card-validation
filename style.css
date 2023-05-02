@@ -1,0 +1,177 @@
+/*Fondo de pagina estilo generado*/
+body {
+    background-color: #ffffff;
+    background-image: url(../Imagenes/28102020-outubro-rosa-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+/*Estilo encabezado de pagina*/
+header{
+    width: 90%;
+    max-width: 900px;
+    padding: 10px 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(222, 16, 112);
+    margin-bottom: -12px;
+}
+
+/*Estilo texto de encabezado de pagina*/
+#textoinicial{
+    width: 90%;
+    max-width: 900px;
+    padding: 10px 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(251, 84, 167);
+}
+
+
+/*Estilo y fondo de datos usuario tarjeta*/
+#Data_tarjeta{
+    width: 100%;
+    max-width: 350px;
+    padding: 9px 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image:url(../Imagenes/7-consejos-mama.jpg);
+    background-size: cover;
+    border-radius: 18px;
+    /*text-align: left;*/
+    /*font-family: system-ui;*/
+    /*font-size: 16px;*/
+    /*color: aliceblue;*/
+    /*align-items: center;*/
+    box-shadow: 0 10px 10px 0 rgba(23, 118, 235, 0.3);
+}
+
+/*Colocando la imagen del tipo de tarjeta dentro de la tarjeta*/
+.tipotarjeta {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 5px;
+    float: right;
+    min-height: 10px;
+}
+
+/*Colocando la imagen del chip dentro de la tarjeta*/
+.chip{
+    width: 100%;
+    max-width: 50px;
+    margin-bottom: 05px;
+}
+
+/*Titulo de tarjeta de credito o debito*/
+.creditcard, .expiracion{
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 18px;
+    color: rgb(253, 20, 222);
+    margin-bottom: -5px;
+    /*background-color: aliceblue;*/
+}
+
+/*Estilo generado para numero de tarjeta*/
+#number_card{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    color:rgb(87, 4, 62);
+    margin-bottom: 1px;
+}
+
+.expiracion,.card_date{
+    text-align: right;
+}
+
+/*Estilos anidados para los demas inputs de mis tarjeta*/
+#nameusuario_card, .data_exp, .card_date, .card_month{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+/*Estilo para mi formulario*/
+#form {
+    width: 100%;
+    max-width: 700px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 118, 248, 0.39);
+    border-radius: 15px;
+    align-items: center;
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(203, 48, 255);
+}
+
+/*Estilos para mis inputs de formulario*/
+#input_name, #input_number,#input_month,#input_year{
+    border: 2px solid rgb(248, 138, 231);
+    font-size: 14px;
+    height: 27px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 16, 30);
+}
+
+#input_cvv{
+    border: 2px solid rgb(248, 138, 231);
+    font-size: 14px;
+    height: 14px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+#botonvalidar{
+    border: 2px solid rgb(255, 4, 217);
+    color: rgb(249, 14, 210);
+    font-size: 16px;
+    height: 35px;
+    width: 100%;
+    padding: 5px 12px;
+    transition: .3s ease all;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#botonvalidar:hover{
+    padding: 5px 12px; 
+    background: rgb(221, 0, 255); 
+    color: white; 
+}
+
+#botonvalidar:active{
+    padding: 5px 12px; 
+    background: rgb(255, 87, 157); 
+    color: rgb(245, 243, 245); 
+}

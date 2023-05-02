@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>FUNDACIÓN ROSA POR UNA VIDA</header>
+    <p id="textoinicial">Unete a la causa apoyando a una mujer con tu donacion, logremos alcanzar mas vidas</p>
+    <main>
+
+  <!--Esta seccion es la parte frotal de mi tarjeta-->
+  <section id="contenedor"> 
+    <section id="Data_tarjeta">
+      <!--<br>-->
+      <div>
+        <img src="Imagenes/6220ac0f912013c51947f9c4.png" class="tipotarjeta" alt="">
+      </div>
+      <div>
+        <img src="Imagenes/chiptarjeta.png" class="chip" alt="">
+      </div>
+      <h class="creditcard">Numero de tarjeta y titular</h>
+      <p id="number_card">0000 0000 0000 0000</p>
+      <p id="nameusuario_card">Juan Perez</p>
+      <h class="expiracion">Expiración</h>
+      <p class="card_date" id="card_date">
+        <span id="card_month">00</span>/<span id="card_year">00</span>
+      </p>
+  </section>
+    
+  <!--Este div contiene el formulario para el ingreso de datos-->
+  <section class="form_data">  
+    <form class="form" id="form">
+      <div class="form_group">    
+        <label for="input_name">Nombre de titular</label>
+        <input type="text" placeholder="Nombre y apellido" id="input_name">
+      </div> 
+          <br>
+
+      <!--Numero de tarjeta--> 
+      <div class="form_group">  
+        <label for="input_number">Numero de tarjeta</label>
+        <input type="text" placeholder="e.g. 1546 8495 7231 4567" maxlength="16" id="input_number">
+      </div>
+      <br>
+
+      <!--Fecha de expiracion-->  
+        <div class="flexbox">
+        <div class="grupo expira">
+          <label for="input_month">Fecha expiracion</label>  
+        <div class="flexbox">
+      <!--Mes de expiracion-->     
+            <div class="grupo_select">
+              <select name="Mes" id="input_month">
+              <option disabled selected>Mes</option>
+              </select>
+              <i class="fa-regular fa-angle-down"></i>  
+            </div>
+      <!--Año de expiracion-->      
+            <div class="grupo_select">
+              <select name="Year" id="input_year">
+              <option disabled selected>Año</option>
+              </select>
+              <i class="fa-regular fa-angle-down"></i>  
+            </div>
+        </div> <!--Div cierre de flex box mes y año-->
+        </div> <!--Div cierre de grupo expira-->
+        <br> 
+      <!--CVV de tarjeta-->  
+      <div class="form_group">  
+        <label for="input_cvv">CVV</label>
+        <input type="text" placeholder="123" maxlength="3" id="input_cvv">
+      </div>
+      </div>
+      <br>
+
+      <!--Boton para validar y aceptar datos-->
+      <section>
+        <button class="Button" type="sumit" id="botonvalidar">Realizar pago</button>
+      </section>
+    </form>
+    <!--Boton para considerar el reingreso de datos--> 
+      <!--<section class="Validacion datos">
+        <p class="Data_aceptada">Gracias los datos son correctos</p>
+        <button class="Button" type="sumit">Continuar</button>
+      </section> -->
+  </section>
+</section>    
+
+    </main>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
