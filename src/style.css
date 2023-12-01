@@ -1,7 +1,7 @@
 /*Fondo de pagina estilo generado*/
 body {
-    background-color: #ffffff;
-    background-image: url(../Imagenes/28102020-outubro-rosa-1.jpg);
+    background-color: #f2c0fb;
+    background-image: url(../Imagenes/rosa.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;  
@@ -18,7 +18,7 @@ header{
     align-items: center;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color: rgb(222, 16, 112);
+    color: rgb(0, 0, 0);
     margin-bottom: -12px;
 }
 

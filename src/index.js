@@ -80,9 +80,8 @@ form.input_cvv.addEventListener("keyup", (e) => {
 //Boton para evitar que la pagina se refresque y que me tome los datos del usuario
 botonvalidar.addEventListener("click", (e) => {
   e.preventDefault();
-  if(inputName.value !== "" && inputNumber.value !== "" && inputMonth.value !== "Mes" && inputYear.value !== "Año" && inputCvv.value !== ""){
-   
-
+  if(inputName.value !== "" && inputNumber.value !== "" && inputMonth.value !== "Mes" && inputYear.value !== "Año" && inputCvv.value !== "")
+  {
     //Validar console.log(Number(inputNumber.value));
     const creditCardNumber = inputNumber.value;
     (validator.isValid(creditCardNumber));
