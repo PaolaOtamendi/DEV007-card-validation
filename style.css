@@ -1,11 +1,23 @@
 /*Fondo de pagina estilo generado*/
 body {
-    background-color: #ffffff;
-    background-image: url(../Imagenes/28102020-outubro-rosa-1.jpg);
+    background-color: #f2c0fb;
+    /* background-image: url(../imagenes/rosa.jpg); */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;  
+    z-index: 0;
 }
+
+.imagen-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
 
 /*Estilo encabezado de pagina*/
 header{
@@ -18,7 +30,7 @@ header{
     align-items: center;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    color: rgb(222, 16, 112);
+    color: rgb(0, 0, 0);
     margin-bottom: -12px;
 }
 
@@ -36,6 +48,16 @@ header{
     color: rgb(251, 84, 167);
 }
 
+.imagen-tarjeta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 350px;
+    padding: 9px 50px;
+    /* height: 100%; */
+    z-index: -1;
+}
 
 /*Estilo y fondo de datos usuario tarjeta*/
 #Data_tarjeta{
@@ -45,14 +67,10 @@ header{
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-image:url(../Imagenes/7-consejos-mama.jpg);
+    background-color: rgb(140, 18, 255);
+/*     background-image:url(../imagenes/7-consejos-mama.jpg); */
     background-size: cover;
     border-radius: 18px;
-    /*text-align: left;*/
-    /*font-family: system-ui;*/
-    /*font-size: 16px;*/
-    /*color: aliceblue;*/
-    /*align-items: center;*/
     box-shadow: 0 10px 10px 0 rgba(23, 118, 235, 0.3);
 }
 
@@ -78,7 +96,6 @@ header{
     font-size: 18px;
     color: rgb(253, 20, 222);
     margin-bottom: -5px;
-    /*background-color: aliceblue;*/
 }
 
 /*Estilo generado para numero de tarjeta*/
@@ -98,7 +115,7 @@ header{
 #nameusuario_card, .data_exp, .card_date, .card_month{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 19px;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     font-weight: bolder;
     margin-bottom: 2px;
 }
