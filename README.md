@@ -46,13 +46,13 @@ conceptos también.
 
 
 ## 3. Fundacion Rosa por una Vida.
-![Interfaz para realizar donaciones figma](C:\Users\ACER\DEV007-card-validation\src\Imagenes\figmaprototipo.PNG)
+![figmaprototipo](https://user-images.githubusercontent.com/130094667/235686514-da5ace69-5244-400e-bc73-acc23c6d36be.PNG)
 
 El objetivo de la interfaz es que sea amigable con el usuario y predicitiva, la parte inicial de la pagina se presenta con un encabezado donde se coloca el nombre de la "empresa o fundación", seguido del nombre se coloco un pequelo texto dando a entender el fin de la pagina y de la actividad que se realice ya sea una compra u donación.
 
 Finalmente se llego a la conclusion de realizar la pagina enfocada a una fundacion enfocada al cancer de mama, para todas aquellas personas que busquen dar apoyos economicos a las mujeres que lo necesiten, ya sea usado para tratamientos, medicinas, traslados hospitalitarios, etc.
 
-![Interfaz para realizar donaciones pagina web](C:\Users\ACER\DEV007-card-validation\src\Imagenes\captura.PNG)
+![captura](https://user-images.githubusercontent.com/130094667/235693350-3cde6d65-03e2-433e-b8da-73df3a1489ef.PNG)
 
 * Quiénes son los principales usuarios de producto.
 La pagina de la fundacion esta enfocada a cualquier personas que busque colaborar con su apoyo economico, mayor de edad y que cuente con una tarjeta bancaria debito o credito.
@@ -66,7 +66,7 @@ Los datos que el usuario puede visualizar son:
 * Titular de tarjeta.
 * Fecha de expiración.
 
-![Tarjeta de credito parte inicial](C:\Users\ACER\DEV007-card-validation\src\Imagenes\tarjetafrontal.PNG)
+![tarjetafrontal](https://user-images.githubusercontent.com/130094667/235693440-5d3c62e1-db8b-4620-be35-ffe281cf029f.PNG)
 
 - 2. Seguido de la imagen de la tarjeta de credito se presenta la seccion del formulario, se espera que el usuario ingrese los datos pertinentes del pago que se realizara u donacion por parte del usuario, en esta seccion se muestran los campos a llenar, los cuales son campos con tipo input, en los cuales el usuario podra ingresar sus datos:
 * Nombre de titular.
@@ -75,19 +75,20 @@ Los datos que el usuario puede visualizar son:
 * CVV.
 * Boton de realizar pago. Identificado con color y diseño para que sea mas atractivo al usuario.
 
-![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\formulario.PNG)
+![formulario](https://user-images.githubusercontent.com/130094667/235693507-808f689b-67cf-4163-9ced-1b365ab8cf3c.PNG)
 
 - 3. La interfaz es muy amigable y predictiva, si algun campo no es llenado este adiertes con una alerta al usuario que debe verificar los datos de pago, en caso de que alguno sea olvidado o no colocado de la forma correcta.
 
-![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\alertacampovacio.PNG)
+![alertacampovacio](https://user-images.githubusercontent.com/130094667/235691483-057e669c-1f3c-4a6c-8bd2-8817a2975603.PNG)
 
 - 4. Finalmente se busco que el diseño de la pagina represente a la fundacion "Rosa por una Vida" enfocandonos en los tonos respresentativos del cancer de mama, como es el tono rosa. El diseño final se presenta de la siguiente forma.
 
-![Formulario de tarjeta](C:\Users\ACER\DEV007-card-validation\src\Imagenes\paginafinal.PNG)
+![paginafinal](https://user-images.githubusercontent.com/130094667/235693594-61bb8db7-3743-456e-8fd0-743e54c40d4e.PNG)
 
 Se espera que las personas interesadas sobre el tema del cancer de mama se sienta identificada con la pagina y participe con sus donaciones.
 
 ## 4. Aspectos generales de la pagina.
+
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
